@@ -95,6 +95,10 @@ span::before {
     padding: 20px;
     opacity: 0.9;
   }
+
+  img{
+    width:100%;
+    }
   
   /* Main column */
   .main {   
