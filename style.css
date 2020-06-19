@@ -37,8 +37,36 @@ float: left;
 color: black; 
 }
 
+
+h1 { 
+    display: flex; 
+    justify-content: center; 
+    color:#060629; 
+} 
+
+span::before { 
+    content: "I am Rishabh Dewang"; 
+    animation: animate infinite 3s; 
+    padding-left: 10px; 
+    text-align: center;
+} 
+
+@keyframes animate { 
+
+    0% { 
+        content: "I am" ; 
+    } 
+
+    33.33% { 
+        content: "Rishabh" ; 
+    } 
+
+    67% { 
+        content: "Dewang"; 
+    } 
+} 
+
 .head{
-    font-style:;
     text-align: center;
     padding:50px;
     margin-top: 120px;
@@ -128,9 +156,48 @@ li{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
 }
+
+.contact{
+    background-image: url("bg3.jpg");
+    background-position:cover;
+    border-color: black;
+    margin: 0em;
+    padding-top: 2em;
+    text-align: center;
+    text-decoration: black;
+    font-weight: bolder;
+}
 /* .center {
 margin: auto;
 /* width: 33%;
 border: 3px solid green;
 padding: 10px; }
 */
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+flex: 50%;
+padding: 20px;
+opacity: 0.9;
+text-align: center;
+}
+
+/* Main column */
+.m2 {   
+flex: 50%;
+background-color :inherit;
+padding: 25px;
+align-self: center;
+}
+
+/* Fake image, just for this example */
+.m3 {
+background-color:inherit;
+width: 100%;
+padding:25pt;
+align-content:unset;
+}
