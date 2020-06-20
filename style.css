@@ -53,11 +53,11 @@ span::before {
 
 @keyframes animate { 
 
-    0% { 
+    1% { 
         content: "I am" ; 
     } 
 
-    33.33% { 
+    35% { 
         content: "Rishabh" ; 
     } 
 
@@ -95,11 +95,11 @@ span::before {
     padding: 20px;
     opacity: 0.9;
   }
-
+/* 
   img{
     width:100%;
     }
-  
+   */
   /* Main column */
   .main {   
     flex: 72%;
